@@ -1,0 +1,12 @@
+version: "3"
+services:
+  post:
+    build: "posts/"
+  comments:
+    build: "./comments/"
+  query:
+    build: "./query/"
+  event-bus:
+    build: "./event-bus/"
+  moderation:
+    build: "./moderation/"
